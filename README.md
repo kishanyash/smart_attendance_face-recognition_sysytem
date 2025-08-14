@@ -1,25 +1,27 @@
-"# smart_attendance_face-recognition_sysytem" 
-smart-attendance/
-│
-├── data/
-│   ├── haarcascade_frontalface_default.xml   # Haar Cascade model for face detection
-│   ├── faces_data.pkl                        # Saved face embeddings
-│   ├── names.pkl                             # Mapped names of faces
-│
-├── Attendance/                               # Folder for CSV attendance logs
-│
-├── add_faces.py                              # Script to add new faces
-├── test.py                                   # Main attendance script
-├── app.py                                    # Streamlit live dashboard
-├── background.png                            # UI background for attendance display
-├── README.md                                 # Project documentation
+# 📋 Smart Attendance — Face Recognition System
+
+AI-powered attendance system using **OpenCV** (face detection), **scikit-learn** (KNN face recognition), and a **Streamlit** dashboard for live viewing. It detects faces from a webcam, recognizes known users, and logs attendance to a dated CSV.
+
+---
+
+## ✨ Features
+- 🔍 Real-time face detection (Haar Cascade)
+- 🧠 Face recognition with KNN
+- 🗓️ Auto CSV logging per day (e.g., `Attendance_14-08-2025.csv`)
+- 🗣️ Voice confirmation on Windows (SAPI)
+- 📊 Live dashboard with auto-refresh (Streamlit)
+
+---
+
+## 📦 Project Structure
 
 
-git clone https://github.com/yourusername/smart_attendance_face-recognition_system.git
+
+---
+
+## 🚀 Quickstart
+
+###  Clone
+```bash
+git clone https://github.com/kishanyash380/smart_attendance_face-recognition_system.git
 cd smart_attendance_face-recognition_system
-
-
-pip install -r requirements.txt
-
-
-
